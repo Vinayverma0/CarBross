@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarBros - Buy. Sell. Simple.</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ONLY CAR BROS ANIMATION OVERLAY (NO INTRO VIDEO) -->
+    <div id="intro-overlay">
+        <div id="brand-animation-screen" class="hidden-brand-screen active">
+            <h1 class="animated-carbros-title">CAR <span>BROS</span></h1>
+            <p class="animated-carbros-sub">Buy. Sell. Simple.</p>
+        </div>
+    </div>
+
+    <!-- MAIN WEBSITE CONTENT -->
+    <div id="main-content" class="hidden">
+        <!-- Background Video -->
+        <video id="bg-video" autoplay muted loop playsinline src="bg.mp4"></video>
+        <div class="video-overlay"></div>
+
+        <!-- Navigation -->
+        <header>
+            <div class="logo-container">
+                <img src="logo.jpeg" alt="CarBros Logo" class="brand-logo-img">
+                <div class="logo">CAR<span>BROS</span></div>
+            </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#founders">Founders</a>
+                <a href="#services">Services</a>
+                <a href="#garage">Virtual Garage</a>
+                <a href="#gallery">Showcase</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+            <div class="header-right">
+                <a href="https://instagram.com/carbros.official" target="_blank" class="social-icon" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#contact" class="nav-btn">DM / Inquire</a>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="badge">HISAR & GURUGRAM'S TRUSTED BROKERAGE</div>
+                <h1>PRE-OWNED CARS, <br><span>MADE SIMPLE.</span></h1>
+                <p>CAR BROS buys and sells pre-owned cars for everyday buyers and sellers. Friendly, clear, and straightforward deals.</p>
+                <div class="hero-btns">
+                    <a href="#garage" class="btn primary-btn">Explore Garage</a>
+                    <a href="#contact" class="btn secondary-btn">Sell Your Car</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- What We Stand For Section -->
+        <section id="about" class="about-section">
+            <h2>WHAT WE <span>STAND FOR</span></h2>
+            <p class="section-subtitle">Three simple things that define every single deal at CarBros.</p>
+            <div class="pillars-grid">
+                <div class="pillar-card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="pillar-num">01</div>
+                    <h3>Friendly</h3>
+                    <p>Talk like a helpful friend, not a salesperson.</p>
+                </div>
+                <div class="pillar-card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="pillar-num">02</div>
+                    <h3>Clear</h3>
+                    <p>Plain words, honest answers, no jargon.</p>
+                </div>
+                <div class="pillar-card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="pillar-num">03</div>
+                    <h3>Dependable</h3>
+                    <p>Do what we say, and only promise what we can deliver.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEET THE FOUNDERS SECTION -->
+        <section id="founders" class="founders-section">
+            <h2>MEET THE <span>FOUNDERS</span></h2>
+            <p class="section-subtitle">The minds driving CarBros across Hisar and Gurugram.</p>
+            <div class="founders-grid">
+                <!-- Owner -->
+                <div class="founder-card glass-card">
+                    <div class="founder-img-box">
+                        <img src="owner.jpeg" alt="Vinay Verma" onerror="this.src='logo.jpeg'">
+                    </div>
+                    <h3>Vinay Verma</h3>
+                    <span class="founder-role">Owner (Managing Gurugram)</span>
+                    <p>Overseeing pre-owned car brokerage operations, client relations, and vehicle sourcing across Gurugram.</p>
+                    <div class="founder-socials">
+                        <a href="https://www.instagram.com/ursvinayverma?utm_source=ig_web_button_share_sheet&xtok=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Co-Owner -->
+                <div class="founder-card glass-card">
+                    <div class="founder-img-box">
+                        <img src="Co-Owner.jpeg" alt="Rajat" onerror="this.src='logo.jpeg'">
+                    </div>
+                    <h3>Rajat</h3>
+                    <span class="founder-role">Co-Owner (Managing Hisar)</span>
+                    <p>Leading vehicle inspection, transparent deals, and expanding CarBros footprint across Hisar.</p>
+                    <div class="founder-socials">
+                        <a href="https://www.instagram.com/__.rajattt_?utm_source=ig_web_button_share_sheet&srtk=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services / Buy & Sell Section -->
+        <section id="services" class="services">
+            <h2>BUY OR <span>SELL</span> CARS</h2>
+            <p class="section-subtitle">Hassle-free vehicle sourcing and selling across Hisar and Gurugram.</p>
+            <div class="service-grid">
+                <div class="service-card glass-card">
+                    <div class="card-glow"></div>
+                    <h3>For Buyers</h3>
+                    <p>Tell us what you are looking for. We take it from there.</p>
+                </div>
+                <div class="service-card glass-card">
+                    <div class="card-glow"></div>
+                    <h3>For Sellers</h3>
+                    <p>Want to sell yours? Tell us about the car you want to sell. We take it from there.</p>
+                </div>
+                <div class="service-card glass-card">
+                    <div class="card-glow"></div>
+                    <h3>Our Promise</h3>
+                    <p>We keep every car deal clear and simple with complete transparency.</p>
+                </div>
+            </div>
+        </section>
+
+<!-- VIRTUAL GARAGE SECTION (PHOTO SHOWCASE) --> <section id="garage" class="garage-section"> <h2>CARBROS <span>VIRTUAL GARAGE</span></h2> <p class="section-subtitle">Explore our elite collection available for purchase.</p> <div class="virtual-garage-container"> <!-- Car Selector Panel --> <div class="car-selector-panel glass-card"> <h3>SELECT VEHICLE</h3> <button class="car-option-btn active" data-img="s11.jpg" data-name="Scorpio S11" data-desc="Rugged 4x4 SUV built for ultimate dominance."> Scorpio S11 <span>SUV</span> </button> <button class="car-option-btn" data-img="fortunerr.webp" data-name="Toyota Fortuner" data-desc="The undisputed king of Indian roads and off-road power."> Toyota Fortuner <span>Premium SUV</span> </button> <button class="car-option-btn" data-img="flegender.webp" data-name="Fortuner Legender" data-desc="Aggressive styling paired with ultimate luxury and comfort."> Fortuner Legender <span>Luxury SUV</span> </button> <button class="car-option-btn" data-img="scorpioon.webp" data-name="Scorpio N" data-desc="The Big Daddy of SUVs loaded with futuristic technology."> Scorpio N <span>Modern SUV</span> </button> <button class="car-option-btn" data-img="dezire1.jpg" data-name="Swift Dzire" data-desc="Comfortable, fuel-efficient, and reliable family sedan."> Swift Dzire <span>Sedan</span> </button> <button class="car-option-btn" data-img="virtuss.webp" data-name="Volkswagen Virtus" data-desc="German engineering with breathtaking turbo performance."> Volkswagen Virtus <span>Performance Sedan</span> </button> <button class="car-option-btn" data-img="verna.jpg" data-name="Hyundai Verna" data-desc="Futuristic design packed with advanced features and power."> Hyundai Verna <span>Executive Sedan</span> </button> </div> <!-- Car Photo Stage --> <div class="garage-stage glass-card"> <div class="car-image-container"> <img id="active-car-img" src="s11.jpg" alt="Car Image"> </div> <div class="car-info-display"> <h2 id="active-car-title">Scorpio S11</h2> <p id="active-car-desc">Rugged 4x4 SUV built for ultimate dominance.</p> <a href="#contact" class="btn primary-btn" style="margin-top: 15px;">Inquire About This Car</a> </div> </div> </div> </section>
+
+        <!-- Gallery & Brand Showcase Section -->
+        <section id="gallery" class="gallery-section">
+            <h2>BRAND & <span>SHOWCASE</span></h2>
+            <p class="section-subtitle">Official carousels, merchandise, and store presence.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item glass-card"><img src="Pre Owned.png" alt="Pre-owned Cars"></div>
+                <div class="gallery-item glass-card"><img src="POCMS.png" alt="Made Simple"></div>
+                <div class="gallery-item glass-card"><img src="for buyers.png" alt="For Buyers"></div>
+                <div class="gallery-item glass-card"><img src="for sellers.png" alt="For Sellers"></div>
+                <div class="gallery-item glass-card"><img src="BSS dm.png" alt="DM us to buy or sell"></div>
+                <div class="gallery-item glass-card"><img src="cmpny.jpeg" alt="Merchandise"></div>
+                <div class="gallery-item glass-card"><img src="assecrs.jpeg" alt="Accessories and Keychains"></div>
+                <div class="gallery-item glass-card"><img src="lettr.jpeg" alt="Letterhead and Cards"></div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>GET IN <span>TOUCH</span></h2>
+            <p class="section-subtitle">DM us on Instagram @carbros.official or send your details below.</p>
+            <div class="contact-container glass-card">
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/meaaakrn" method="POST">
+                    <div class="input-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="car_model" placeholder="Car Model (Buy / Sell)" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" placeholder="Your requirements..." rows="4" required></textarea>
+                    </div>
+                    <button type="submit" id="submit-btn" class="btn primary-btn full-width">Submit Inquiry</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-left">
+                    <img src="logo.jpeg" alt="Logo" class="footer-logo-img">
+                    <div class="logo">CAR<span>BROS</span></div>
+                </div>
+                <p>&copy; 2026 CarBros. Buy. Sell. Simple. Hisar & Gurugram.</p>
+                <div class="footer-social">
+                    <a href="https://instagram.com/carbros.official" target="_blank" class="social-icon" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- THANK YOU MODAL POPUP -->
+    <div id="thankyou-modal" class="modal-overlay hidden">
+        <div class="modal-box glass-card">
+            <div class="modal-icon"><i class="fas fa-check-circle"></i></div>
+            <h3>Thank You!</h3>
+            <p>Your inquiry has been successfully sent to CarBros. We will contact you soon!</p>
+            <button id="close-modal-btn" class="btn primary-btn">Okay</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
